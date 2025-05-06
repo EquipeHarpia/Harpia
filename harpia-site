@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harpia Ciência e Biotecnologia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #2d3748;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #2d3748;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #edf2f7;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Harpia Ciência e Biotecnologia</h1>
+    <p>Inovação com a força da biodiversidade</p>
+  </header>
+
+  <section>
+    <h2>Sobre a Harpia</h2>
+    <p>Somos uma startup de base científica dedicada à bioeconomia e ao desenvolvimento de alimentos funcionais com frutos da biodiversidade brasileira.</p>
+  </section>
+
+  <section>
+    <h2>Nosso Produto</h2>
+    <p><strong>Biofrutix</strong> é um repositor eletrolítico natural com frutas da Amazônia e probióticos. Ideal para hidratação e recuperação.</p>
+  </section>
+
+  <section>
+    <h2>Missão</h2>
+    <p>Promover saúde e sustentabilidade por meio da biotecnologia, valorizando ingredientes naturais e comunidades tradicionais.</p>
+
+    <h2>Contato</h2>
+    <p>E-mail: contato@harpiaciencia.com.br</p>
+    <p>Instagram: <a href="https://instagram.com/harpiaciencia" target="_blank">@harpiaciencia</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Harpia Ciência e Biotecnologia
+  </footer>
+</body>
+</html>
+Criar página inicial do site institucional da Harpia
+
