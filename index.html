@@ -4,76 +4,91 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Harpia Ciência e Biotecnologia</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #3B6E46; /* Verde escuro */
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .logo {
+      max-width: 200px;
+      margin-bottom: 1.5rem;
+    }
+    .hero-image {
+      width: 100%;
+      height: 400px;
+      background: url('sua-imagem-principal.jpg') no-repeat center center;
+      background-size: cover;
+    }
+    .social a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #1a73e8;
+    }
+    footer {
+      background-color: #2D2D2D;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #F0C987; /* Amarelo claro */
+      color: #333;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+    .cta-button:hover {
+      background-color: #e0b766;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Cabeçalho -->
   <header>
-    <img src="logo.png" alt="Logotipo da Harpia" class="logo" />
+    <img src="logotipo.jpeg" alt="Logotipo da Harpia" class="logo" />
     <h1>Harpia Ciência e Biotecnologia</h1>
-    <p>Inovação brasileira com frutos da biodiversidade e ciência aplicada.</p>
-    <button><a href="#produtos">Conheça o Biofrutix</a></button>
+    <p>Inovação brasileira com frutos da biodiversidade e ciência aplicada</p>
   </header>
 
-  <!-- Seção sobre o Movimento Raízes do Futuro -->
-  <section id="movimento-raizes">
+  <div class="hero-image"></div>
+
+  <main>
+    <h2>Sobre nós</h2>
+    <p>A Harpia desenvolve soluções funcionais, como o Biofrutix, um repositor eletrolítico natural com frutos da biodiversidade e probióticos. Nosso foco é promover a bioeconomia brasileira, valorizando saberes tradicionais com tecnologia e inovação.</p>
+
     <h2>Movimento Raízes do Futuro</h2>
-    <p>
-      O Movimento **Raízes do Futuro** busca promover a regeneração da biodiversidade e fortalecer a bioeconomia brasileira, incentivando a conexão entre os produtos naturais e o uso sustentável da nossa biodiversidade. 
-      Acreditamos que a preservação dos nossos recursos naturais está no centro de um futuro mais sustentável e inovador, com impacto direto na sociedade e no meio ambiente.
-    </p>
-    <p>
-      Através deste movimento, buscamos criar uma rede de produtores, cientistas e consumidores comprometidos com a valorização do que é genuinamente brasileiro, desde os frutos da natureza até as soluções tecnológicas inovadoras. 
-      Junte-se a nós na construção de um futuro mais verde e promissor!
-    </p>
-    <button><a href="#contato">Participe do Movimento</a></button>
-  </section>
+    <p>Uma iniciativa que reconecta ciência, biodiversidade e regeneração para um futuro mais sustentável.</p>
 
-  <!-- Produtos -->
-  <section id="produtos">
-    <h2>Nossos Produtos</h2>
-    <p>Veja como estamos revolucionando a bioeconomia com nossos produtos naturais e inovadores.</p>
-    <!-- Adicione imagens de produtos e mais informações aqui -->
-  </section>
+    <a href="https://wa.me/556392532673" class="cta-button">💬 Fale conosco pelo WhatsApp</a>
+  </main>
 
-  <!-- Contato -->
   <footer>
-    <p>&copy; 2025 Harpia Ciência e Biotecnologia</p>
+    <p>&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
+    <div class="social">
+      <a href="https://instagram.com/BionexBras" target="_blank">📸 Instagram</a>
+      <a href="https://www.youtube.com/@EquipeHarpia" target="_blank">▶️ YouTube</a>
+      <a href="https://www.linkedin.com/company/103615487" target="_blank">💼 LinkedIn</a>
+    </div>
   </footer>
 
 </body>
 </html>
-#movimento-raizes {
-  background-color: #e3f4e1; /* Verde claro para remeter à natureza */
-  padding: 40px;
-  text-align: center;
-  margin: 50px 0;
-  border-radius: 8px;
-}
-
-#movimento-raizes h2 {
-  font-size: 2rem;
-  color: #2d9a3d; /* Verde mais escuro para destaque */
-}
-
-#movimento-raizes p {
-  font-size: 1.1rem;
-  color: #333;
-  line-height: 1.6;
-  margin: 20px 0;
-}
-
-#movimento-raizes button {
-  background-color: #f5a623;
-  padding: 10px 20px;
-  border: none;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-#movimento-raizes button:hover {
-  background-color: #d68a1f;
-}
 
