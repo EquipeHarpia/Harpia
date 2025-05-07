@@ -124,11 +124,34 @@
     .pitch-deck a:hover {
       background-color: #305419;
     }
+
+    /* Adicionando rolagem suave */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Estilo para os links das redes sociais */
+    .social {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .social a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 20px; /* Aumentei o tamanho dos ícones */
+      color: #457c1e; /* Cor ajustada para combinar com o tema */
+      font-weight: bold;
+    }
+
+    .social a:hover {
+      color: #305419; /* Cor de hover para os links de redes sociais */
+    }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="logo.png" class="logo.png" />
+    <img src="logo.png" alt="logo.png" class="logo" />
     <h1>Harpia Ciência e Biotecnologia</h1>
     <nav>
       <a href="#sobre">Quem Somos</a>
@@ -140,11 +163,11 @@
   <div class="hero">
     Biofrutix: Inovação com a força da biodiversidade
   </div>
-  
-    <!-- Imagem do produto Biofrutix -->
-    <div style="text-align:center; margin-top:2rem;">
-      <img src="fundo-biofrutix-2.png" alt="fundo-biofrutix-2.png" style="width:100%; max-width:400px; border-radius:10px;" />
-    </div>
+
+  <!-- Imagem do produto Biofrutix -->
+  <div style="text-align:center; margin-top:2rem;">
+    <img src="fundo-biofrutix-2.png" alt="fundo-biofrutix-2.png" style="width:100%; max-width:400px; border-radius:10px;" />
+  </div>
 
   <main>
     <section id="sobre">
@@ -191,3 +214,4 @@
   </footer>
 </body>
 </html>
+
