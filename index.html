@@ -4,120 +4,149 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Harpia Ciência e Biotecnologia</title>
-  <!-- Fonte Poppins -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
     body {
-      font-family: 'Poppins', sans-serif;
-      max-width: 900px;
-      margin: auto;
-      padding: 2rem;
-      background-color: #fef6e4;
-      color: #2f2f2f;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ffffff, #f5ffe8);
+      color: #333;
     }
     header {
+      background-color: #fff;
       text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     img.logo {
-      max-width: 200px;
+      max-width: 180px;
       margin-bottom: 1rem;
     }
+    h1 {
+      color: #457c1e;
+      margin-bottom: 0.5rem;
+    }
     nav {
-      text-align: center;
-      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #d9f2c7;
+      padding: 0.5rem 0;
     }
     nav a {
       margin: 0 15px;
       text-decoration: none;
-      color: #00a86b;
-      font-weight: 600;
+      color: #305419;
+      font-weight: bold;
     }
     main {
-      text-align: center;
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
     }
-    .section {
-      margin-top: 3rem;
+    section {
+      margin-bottom: 2rem;
     }
-    .social {
+    h2 {
+      color: #305419;
+    }
+    .social, .contact {
       text-align: center;
       margin-top: 2rem;
     }
-    .social a {
-      margin: 0 15px;
-      font-size: 1.2rem;
+    .social a, .contact a {
+      margin: 0 10px;
       text-decoration: none;
-      color: #00a86b;
+      font-size: 18px;
     }
     .whatsapp-btn {
       display: inline-block;
-      background-color: #00a86b;
+      background-color: #25D366;
       color: white;
-      padding: 12px 24px;
-      border-radius: 8px;
+      padding: 10px 20px;
+      border-radius: 5px;
       text-decoration: none;
-      font-size: 18px;
-      margin-top: 30px;
+      font-size: 16px;
     }
     .whatsapp-btn:hover {
-      background-color: #007f5f;
+      background-color: #128C7E;
     }
     footer {
       text-align: center;
+      padding: 1rem;
       font-size: 0.9rem;
-      color: #777;
-      margin-top: 3rem;
+      background-color: #f0f0f0;
+      color: #555;
+    }
+    .hero {
+      background-image: url('biofrutix.jpg'); /* A imagem do Biofrutix */
+      background-size: cover;
+      background-position: center;
+      height: 400px; /* Aumentando a altura para dar mais destaque */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5rem; /* Tamanho maior da fonte */
+      font-weight: bold;
+      text-shadow: 2px 2px 6px #000; /* Aumentando o sombreamento para maior contraste */
+      background-color: rgba(0, 0, 0, 0.5); /* Efeito de escurecimento de fundo */
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="logo.jpeg" alt="Logotipo da Harpia" class="logo" />
+    <img src="logotipo.jpeg" alt="Logotipo da Harpia" class="logo" />
     <h1>Harpia Ciência e Biotecnologia</h1>
-    <p>Inovação brasileira com frutos da biodiversidade e ciência aplicada</p>
     <nav>
-      <a href="#missao">Missão</a>
-      <a href="#raizes">Movimento Raízes do Futuro</a>
+      <a href="#sobre">Quem Somos</a>
+      <a href="#mvp">Nosso Produto</a>
+      <a href="#movimento">Raízes do Futuro</a>
     </nav>
   </header>
 
-  <main>
-    <div class="section" id="missao">
-      <h2>Missão</h2>
-      <p>
-        Promover soluções inovadoras baseadas em ciência, biodiversidade e saberes tradicionais, impulsionando a bioeconomia brasileira com produtos funcionais como o Biofrutix.
-      </p>
-    </div>
+  <div class="hero">
+    Biofrutix: Inovação com a força da biodiversidade
+  </div>
 
-    <div class="section" id="raizes">
+  <main>
+    <section id="sobre">
+      <h2>Quem Somos</h2>
+      <p>
+        A Harpia Ciência e Biotecnologia é uma startup brasileira que atua com foco na bioeconomia, utilizando frutos da biodiversidade amazônica e do Cerrado. Nossa missão é promover inovação com base em saberes tradicionais, ciência e regeneração. Somos apaixonadas por desenvolver soluções funcionais, sustentáveis e conectadas à natureza.
+      </p>
+    </section>
+
+    <section id="mvp">
+      <h2>Nosso Produto: Biofrutix</h2>
+      <p>
+        Desenvolvemos o Biofrutix, um repositor eletrolítico natural com probióticos e frutos nativos brasileiros. Ele hidrata, nutre e fortalece, respeitando o meio ambiente e valorizando os biomas nacionais.
+      </p>
+    </section>
+
+    <section id="movimento">
       <h2>Movimento Raízes do Futuro</h2>
       <p>
-        Uma iniciativa da Harpia para apoiar práticas regenerativas e valorizar o cultivo de frutos nativos da biodiversidade brasileira, unindo ciência, inovação e propósito.
+        O movimento busca reconectar a inovação com a natureza por meio do plantio de frutos nativos, regeneração ambiental e práticas colaborativas. Acreditamos que a ciência deve caminhar junto com a conservação.
       </p>
-    </div>
-
-    <!-- Imagem do produto Biofrutix -->
-    <div style="text-align:center; margin-top:2rem;">
-      <img src="biofrutix.jpg" alt="Imagem do Biofrutix" style="width:100%; max-width:400px; border-radius:10px;" />
-    </div>
-
-    <!-- Botão WhatsApp -->
-    <div style="text-align: center; margin-top: 30px;">
-      <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale com a gente pelo WhatsApp</a>
-    </div>
+    </section>
   </main>
 
+  <div class="contact">
+    <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
+  </div>
+
+  <div class="social">
+    <a href="https://instagram.com/BionexBras" target="_blank">📸 Instagram</a>
+    <a href="https://www.youtube.com/@EquipeHarpia" target="_blank">▶️ YouTube</a>
+    <a href="https://www.linkedin.com/company/103615487" target="_blank">💼 LinkedIn</a>
+  </div>
+
   <footer>
-    <div class="social">
-      <a href="https://instagram.com/BionexBras" target="_blank">📸 Instagram</a>
-      <a href="https://www.youtube.com/@EquipeHarpia" target="_blank">▶️ YouTube</a>
-      <a href="https://www.linkedin.com/company/103615487" target="_blank">💼 LinkedIn</a>
-    </div>
-    <p style="margin-top: 1rem;">&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
   </footer>
 
 </body>
 </html>
+
