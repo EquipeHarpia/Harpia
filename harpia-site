@@ -107,26 +107,7 @@
       font-weight: bold;
       text-shadow: 2px 2px 6px #000;
       padding: 6rem 1rem;
-    }
-    .pitch-deck {
-      text-align: center;
-      margin: 3rem auto;
-    }
-    .pitch-deck a {
-      display: inline-block;
-      background-color: #457c1e;
-      color: white;
-      padding: 12px 24px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 16px;
-      transition: background-color 0.3s;
-    }
-    .pitch-deck a:hover {
-      background-color: #305419;
-    }
-
+    
     html {
       scroll-behavior: smooth;
     }
