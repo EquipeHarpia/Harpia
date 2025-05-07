@@ -62,6 +62,43 @@
     .whatsapp-btn:hover {
       background-color: #128C7E;
     }
+/* Centralizar botões */
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.social a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1a73e8;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.social a:hover {
+  background-color: #0d5dbf;
+}
+
+/* Botão WhatsApp */
+.whatsapp-btn {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 30px;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128C7E;
+}
 
     footer {
       margin-top: 2rem;
@@ -105,6 +142,48 @@
   <div>
     <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
   </div>
+<!-- Adicionar abas -->
+<nav>
+  <ul>
+    <li><a href="#sobre">Sobre Nós</a></li>
+    <li><a href="#movimento">Movimento</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<!-- Conteúdo das abas -->
+<div id="sobre" class="tab-content">
+  <h2>Sobre nós</h2>
+  <p>A Harpia desenvolve soluções funcionais como o Biofrutix, um repositor eletrolítico natural com frutos da biodiversidade e probióticos...</p>
+</div>
+
+<div id="movimento" class="tab-content">
+  <h2>Movimento Raízes do Futuro</h2>
+  <p>Um movimento voltado para a bioeconomia e regeneração...</p>
+</div>
+
+<div id="contato" class="tab-content">
+  <h2>Contato</h2>
+  <p>Fale conosco pelo WhatsApp ou redes sociais...</p>
+</div>
+
+<!-- Adicionar script para as abas -->
+<script>
+  const tabs = document.querySelectorAll("nav ul li a");
+  const tabContents = document.querySelectorAll(".tab-content");
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", (e) => {
+      e.preventDefault();
+      const target = document.querySelector(tab.getAttribute("href"));
+      tabContents.forEach(content => content.style.display = "none");
+      target.style.display = "block";
+    });
+  });
+
+  // Exibir a primeira aba por padrão
+  document.querySelector("#sobre").style.display = "block";
+</script>
 
     <footer>
     <p>&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
