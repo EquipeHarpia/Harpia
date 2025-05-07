@@ -2,67 +2,211 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harpia Ciência e Biotecnologia é uma startup brasileira que atua com foco em bioeconomia, inovação e regeneração ambiental com frutos nativos da biodiversidade brasileira." />
+  <meta name="keywords" content="bioeconomia, frutos nativos, biodiversidade, hidratação natural, probióticos, sustentabilidade, inovação, Harpia" />
   <title>Harpia Ciência e Biotecnologia</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f4f9;
       color: #333;
     }
     header {
-      background: #2d3748;
-      color: #fff;
-      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.95);
       text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    img.logo {
+      max-width: 180px;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      color: #457c1e;
+      margin-bottom: 0.5rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #d9f2c7;
+      padding: 0.5rem 0;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #305419;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #b9e2a1;
+    }
+    main {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
     section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
+      margin-bottom: 2rem;
     }
-    h1, h2 {
-      color: #2d3748;
+    h2 {
+      color: #305419;
+      border-bottom: 2px solid #d9f2c7;
+      padding-bottom: 0.5rem;
+    }
+    .social, .contact {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .social a, .contact a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    .whatsapp-btn:hover {
+      background-color: #128C7E;
     }
     footer {
       text-align: center;
       padding: 1rem;
-      background: #edf2f7;
       font-size: 0.9rem;
+      background-color: rgba(240, 240, 240, 0.95);
+      color: #555;
+      margin-top: 2rem;
+    }
+    .hero {
+      background-image: url('fundo-biofrutix-2.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      text-align: center;
+      color: white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px #000;
+      padding: 6rem 1rem;
+    }
+    .pitch-deck {
+      text-align: center;
+      margin: 3rem auto;
+    }
+    .pitch-deck a {
+      display: inline-block;
+      background-color: #457c1e;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background-color 0.3s;
+    }
+    .pitch-deck a:hover {
+      background-color: #305419;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .social {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .social a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #457c1e;
+      font-weight: bold;
+    }
+
+    .social a:hover {
+      color: #305419;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="logo.png" alt="Logo Harpia Ciência e Biotecnologia" class="logo" />
     <h1>Harpia Ciência e Biotecnologia</h1>
-    <p>Inovação com a força da biodiversidade</p>
+    <nav>
+      <a href="#sobre">Quem Somos</a>
+      <a href="#mvp">Nosso Produto</a>
+      <a href="#movimento">Raízes do Futuro</a>
+    </nav>
   </header>
 
-  <section>
-    <h2>Sobre a Harpia</h2>
-    <p>Somos uma startup de base científica dedicada à bioeconomia e ao desenvolvimento de alimentos funcionais com frutos da biodiversidade brasileira.</p>
-  </section>
+  <div class="hero">
+    Biofrutix: Inovação com a força da biodiversidade
+  </div>
 
-  <section>
-    <h2>Nosso Produto</h2>
-    <p><strong>Biofrutix</strong> é um repositor eletrolítico natural com frutas da Amazônia e probióticos. Ideal para hidratação e recuperação.</p>
-  </section>
+  <main>
+    <section id="sobre">
+      <h2>Quem Somos</h2>
+      <p>
+        A Harpia Ciência e Biotecnologia é uma startup brasileira que atua com foco na bioeconomia, utilizando frutos da biodiversidade amazônica e do Cerrado. Nossa missão é promover inovação com base em saberes tradicionais, ciência e regeneração. Somos apaixonadas por desenvolver soluções funcionais, sustentáveis e conectadas à natureza.
+      </p>
+    </section>
 
-  <section>
-    <h2>Missão</h2>
-    <p>Promover saúde e sustentabilidade por meio da biotecnologia, valorizando ingredientes naturais e comunidades tradicionais.</p>
+    <section id="mvp">
+      <h2>Nosso Produto: Biofrutix</h2>
+      <p>
+        Desenvolvemos o Biofrutix, um repositor eletrolítico natural com probióticos e frutos nativos brasileiros. Ele hidrata, nutre e fortalece, respeitando o meio ambiente e valorizando os biomas nacionais.
+      </p>
+    </section>
 
-    <h2>Contato</h2>
-    <p>E-mail: suporteharpiabio@gmail.com</p>
-    <p>Instagram: <a href="https://www.instagram.com/BionexBras/" target="_blank">@bionexbras</a></p>
-  </section>
+    <section id="movimento">
+      <h2>Movimento Raízes do Futuro</h2>
+      <p>
+        O movimento busca reconectar a inovação com a natureza por meio do plantio de frutos nativos, regeneração ambiental e práticas colaborativas. Acreditamos que a ciência deve caminhar junto com a conservação.
+      </p>
+    </section>
+
+    <section class="pitch-deck">
+      <h2>Pitch Deck Institucional</h2>
+      <a href="https://docs.google.com/presentation/d/1_jKXW4FQixSGxCCwZ4ngU8q6WY6oIjG_EhND9DLRAwQ/edit?usp=sharing" target="_blank">
+        📄 Acesse o Pitch da Harpia
+      </a>
+    </section>
+  </main>
+
+  <div class="contact">
+    <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
+  </div>
+
+  <div class="social">
+    <a href="https://instagram.com/BionexBras" target="_blank">📸 Instagram</a>
+    <a href="https://www.youtube.com/@EquipeHarpia" target="_blank">▶️ YouTube</a>
+    <a href="https://www.linkedin.com/company/103615487" target="_blank">💼 LinkedIn</a>
+  </div>
 
   <footer>
-    &copy; 2025 Harpia Ciência e Biotecnologia
+    <p>&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
-Criar página inicial do site institucional da Harpia
 
