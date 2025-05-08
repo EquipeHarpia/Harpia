@@ -175,15 +175,40 @@
     </section>
   </main>
 
-  <div class="contact">
-    <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
-  </div>
+ <img src="fundo-biofrutix-2.png" alt="fundo-biofrutix-2.png" class="fundo-biofrutix-2.png" />
 
-  <div class="social">
-    <a href="https://instagram.com/BionexBras" target="_blank">📸 Instagram</a>
-    <a href="https://www.youtube.com/@EquipeHarpia" target="_blank">▶️ YouTube</a>
-    <a href="https://www.linkedin.com/company/103615487" target="_blank">💼 LinkedIn</a>
-  </div>
+    <div class="contact">
+      <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
+    </div>
+
+    <div class="social">
+      <h2>Acompanhe nas redes sociais</h2>
+      <div class="social-icons">
+        <a href="https://instagram.com/BionexBras" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@EquipeHarpia" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/company/103615487" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </main>
+  <section class="hero">
+    <img src="fundo-biofrutix-2.png" alt="fundo-biofrutix-2.png" class="product-img">
+    <h1 class="title">Uma explosão de saúde com o sabor da biodiversidade</h1>
+    <a href="#" class="cta-button">Compre Agora</a>
+  </section>
+
+  <section class="runners">
+    <img src="Runner.jpg" alt="Corredor 1">
+    <img src="runner1.jpg" alt="Corredor 2">
+    <img src="runner2.jpg" alt="Corredor 3">
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
+    © 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
 
   <button onclick="topFunction()" id="topBtn" title="Voltar ao topo">⬆️</button>
 
