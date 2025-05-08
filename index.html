@@ -5,22 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Harpia Ciência e Biotecnologia</title>
   <style>
-    :root {
-      --verde-floresta: #457c1e;
-      --verde-claro: #d9f2c7;
-      --verde-hover: #b9e2a1;
-      --texto-escuro: #333;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      color: var(--texto-escuro);
+      color: #333;
       background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
     }
 
@@ -35,15 +24,13 @@
     }
 
     img.logo {
-      width: 100%;
-      max-width: 300px;
-      height: auto;
+      width: 260px;
+      max-width: 90%;
       margin-bottom: 1rem;
     }
 
     h1 {
-      color: var(--verde-floresta);
-      font-size: 2.2rem;
+      color: #457c1e;
       margin-bottom: 0.5rem;
     }
 
@@ -51,8 +38,8 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      background-color: var(--verde-claro);
-      padding: 0.5rem 1rem;
+      background-color: #d9f2c7;
+      padding: 0.5rem 0;
       border-radius: 8px;
       margin-top: 1rem;
     }
@@ -68,37 +55,26 @@
     }
 
     nav a:hover {
-      background-color: var(--verde-hover);
+      background-color: #b9e2a1;
     }
 
     .hero {
       background: linear-gradient(to right, #457c1e, #ffca3a, #f8961e);
       color: white;
-      font-size: 2.5rem;
+      font-size: 2.2rem;
       font-weight: bold;
       text-shadow: 2px 2px 6px #000;
       padding: 6rem 1rem;
       text-align: center;
     }
 
-    .img-center {
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    .img-center img {
-      width: 100%;
-      max-width: 480px;
-      border-radius: 10px;
-    }
-
     main {
       max-width: 900px;
       margin: 3rem auto;
       padding: 2rem;
-      background-color: rgba(255, 255, 255, 0.95);
+      background-color: rgba(255, 255, 255, 0.9);
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
 
     section {
@@ -107,48 +83,33 @@
 
     h2 {
       color: #305419;
-      border-bottom: 2px solid var(--verde-claro);
+      border-bottom: 2px solid #d9f2c7;
       padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
     }
 
-    .contact, .social {
+    .social, .contact {
       text-align: center;
-      margin-top: 2.5rem;
+      margin-top: 2rem;
+    }
+
+    .social a, .contact a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 18px;
     }
 
     .whatsapp-btn {
       display: inline-block;
       background-color: #25D366;
       color: white;
-      padding: 12px 24px;
+      padding: 10px 20px;
       border-radius: 5px;
       text-decoration: none;
-      font-size: 18px;
-      font-weight: bold;
-      transition: background-color 0.3s;
+      font-size: 16px;
     }
 
     .whatsapp-btn:hover {
       background-color: #128C7E;
-    }
-
-    .social h2 {
-      color: var(--verde-floresta);
-      margin-bottom: 1rem;
-    }
-
-    .social a {
-      margin: 0 15px;
-      text-decoration: none;
-      font-size: 20px;
-      color: var(--verde-floresta);
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-
-    .social a:hover {
-      color: #305419;
     }
 
     footer {
@@ -157,13 +118,45 @@
       font-size: 0.9rem;
       background-color: rgba(240, 240, 240, 0.95);
       color: #555;
-      margin-top: 3rem;
+      margin-top: 2rem;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .social h2 {
+      color: #457c1e;
+      margin-bottom: 1rem;
+    }
+
+    .social a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #457c1e;
+      font-weight: bold;
+    }
+
+    .social a:hover {
+      color: #305419;
+    }
+
+    .hero-img {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .hero-img img {
+      width: 100%;
+      max-width: 420px;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo da Harpia Ciência e Biotecnologia - Sua energia, nossa essência" class="logo" />
+    <img src="logo.png" alt="Logo Harpia" class="logo" />
     <h1>Harpia Ciência e Biotecnologia</h1>
     <nav>
       <a href="#sobre">Quem Somos</a>
@@ -176,8 +169,8 @@
     Biofrutix: Inovação com a força da biodiversidade
   </div>
 
-  <div class="img-center">
-    <img src="fundo-biofrutix-2.png" alt="Imagem do produto Biofrutix" />
+  <div class="hero-img">
+    <img src="fundo-biofrutix-2.png" alt="Biofrutix" />
   </div>
 
   <main>
