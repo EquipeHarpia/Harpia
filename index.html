@@ -5,135 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Harpia Ciência e Biotecnologia</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      color: #333;
-      background: linear-gradient(180deg, #f0fdf4 0%, #ffffff 100%);
-    }
-
-    header {
-      background-color: rgba(255, 255, 255, 0.95);
-      text-align: center;
-      padding: 2rem 1rem 1rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
-
-    img.logo {
-      width: 260px;
-      max-width: 90%;
-      margin-bottom: 1rem;
-    }
-
-    h1 {
-      color: #457c1e;
-      margin-bottom: 0.5rem;
-    }
-
-    nav {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      background-color: #d9f2c7;
-      padding: 0.5rem 0;
-      border-radius: 8px;
-      margin-top: 1rem;
-    }
-
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #305419;
-      font-weight: bold;
-      padding: 10px 15px;
-      border-radius: 5px;
-      transition: background-color 0.3s;
-    }
-
-    nav a:hover {
-      background-color: #b9e2a1;
-    }
-
-    .hero {
-      background: linear-gradient(to right, #457c1e, #ffca3a, #f8961e);
-      color: white;
-      font-size: 2.2rem;
-      font-weight: bold;
-      text-shadow: 2px 2px 6px #000;
-      padding: 6rem 1rem;
-      text-align: center;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 3rem auto;
-      padding: 2rem;
-      background-color: rgba(255, 255, 255, 0.9);
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    section {
-      margin-bottom: 2rem;
-    }
-
-    h2 {
-      color: #305419;
-      border-bottom: 2px solid #d9f2c7;
-      padding-bottom: 0.5rem;
-    }
-
-    .social, .contact {
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    .social a, .contact a {
-      margin: 0 10px;
-      text-decoration: none;
-      font-size: 18px;
-    }
-
-    .whatsapp-btn {
-      display: inline-block;
-      background-color: #25D366;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 16px;
-    }
-
-    .whatsapp-btn:hover {
-      background-color: #128C7E;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      font-size: 0.9rem;
-      background-color: rgba(240, 240, 240, 0.95);
-      color: #555;
-      margin-top: 2rem;
+      box-sizing: border-box;
     }
 
     html {
       scroll-behavior: smooth;
     }
 
-    .social h2 {
-      color: #457c1e;
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      background: #ffffff;
+    }
+
+    header {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(255, 255, 255, 0.85);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 2rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+    }
+
+    .logo {
+      max-height: 60px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #305419;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #d9f2c7;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(to right, #457c1e, #ffca3a, #f8961e);
+      color: white;
+      font-size: 2.8rem;
+      font-weight: bold;
+      padding: 0 1rem;
+      text-shadow: 2px 2px 6px #000;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 6rem 1rem 2rem;
+    }
+
+    section {
+      margin: 4rem 0;
+    }
+
+    h2 {
+      color: #305419;
       margin-bottom: 1rem;
+      border-bottom: 2px solid #d9f2c7;
+      padding-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .contact, .social {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #128C7E;
     }
 
     .social a {
       margin: 0 15px;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 1.2rem;
       color: #457c1e;
       font-weight: bold;
     }
@@ -142,26 +123,42 @@
       color: #305419;
     }
 
-    .hero-img {
+    footer {
       text-align: center;
-      margin-top: 2rem;
+      padding: 2rem 1rem;
+      background-color: #f0f0f0;
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 3rem;
     }
 
-    .hero-img img {
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .gallery img {
       width: 100%;
-      max-width: 420px;
+      max-width: 300px;
       border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
 <body>
   <header>
     <img src="logo.png" alt="Logo Harpia" class="logo" />
-    <h1>Harpia Ciência e Biotecnologia</h1>
     <nav>
       <a href="#sobre">Quem Somos</a>
       <a href="#mvp">Nosso Produto</a>
       <a href="#movimento">Raízes do Futuro</a>
+      <a href="#galeria">Galeria</a>
     </nav>
   </header>
 
@@ -169,9 +166,48 @@
     Biofrutix: Inovação com a força da biodiversidade
   </div>
 
-  <div class="hero-img">
-    <img src="fundo-biofrutix-2.png" alt="Biofrutix" />
-  </div>
+  <main>
+    <section id="sobre">
+      <h2>Quem Somos</h2>
+      <p>A Harpia Ciência e Biotecnologia é uma startup brasileira que atua com foco na bioeconomia, utilizando frutos da biodiversidade amazônica e do Cerrado. Nossa missão é promover inovação com base em saberes tradicionais, ciência e regeneração. Somos apaixonadas por desenvolver soluções funcionais, sustentáveis e conectadas à natureza.</p>
+    </section>
+
+    <section id="mvp">
+      <h2>Nosso Produto: Biofrutix</h2>
+      <p>Desenvolvemos o Biofrutix, um repositor eletrolítico natural com probióticos e frutos nativos brasileiros. Ele hidrata, nutre e fortalece, respeitando o meio ambiente e valorizando os biomas nacionais.</p>
+    </section>
+
+    <section id="movimento">
+      <h2>Movimento Raízes do Futuro</h2>
+      <p>O movimento busca reconectar a inovação com a natureza por meio do plantio de frutos nativos, regeneração ambiental e práticas colaborativas. Acreditamos que a ciência deve caminhar junto com a conservação.</p>
+    </section>
+
+    <section id="galeria">
+      <h2>Galeria Biofrutix</h2>
+      <div class="gallery">
+        <img src="biofrutix-verde.png" alt="Biofrutix Verde" />
+        <img src="biofrutix-amarelo.png" alt="Biofrutix Amarelo" />
+        <img src="biofrutix-laranja.png" alt="Biofrutix Laranja" />
+      </div>
+    </section>
+
+    <div class="contact">
+      <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
+    </div>
+
+    <div class="social">
+      <h2>Acompanhe nas redes sociais</h2>
+      <a href="https://instagram.com/BionexBras" target="_blank">📸 Instagram</a>
+      <a href="https://www.youtube.com/@EquipeHarpia" target="_blank">▶️ YouTube</a>
+      <a href="https://www.linkedin.com/company/103615487" target="_blank">💼 LinkedIn</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
 
   <main>
     <section id="sobre">
