@@ -3,211 +3,209 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Harpia Ciência e Biotecnologia é uma startup brasileira que atua com foco em bioeconomia, inovação e regeneração ambiental com frutos nativos da biodiversidade brasileira." />
-  <meta name="keywords" content="bioeconomia, frutos nativos, biodiversidade, hidratação natural, probióticos, sustentabilidade, inovação, Harpia" />
+  <meta name="description" content="Harpia Ciência e Biotecnologia é uma startup que inova com frutos da biodiversidade brasileira e regeneração." />
   <title>Harpia Ciência e Biotecnologia</title>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      padding: 0;
+      background-color: #f0fff4;
       color: #333;
-      background-color: #f4f9f3;
     }
-
     header {
-      background-color: #ffffff;
-      padding: 1.5rem 1rem;
+      background-color: #ffffffee;
+      padding: 1.5rem;
       text-align: center;
-      border-bottom: 2px solid #d9f2c7;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
-
     img.logo {
       max-width: 160px;
-      display: block;
-      margin: 0 auto;
     }
-
     h1 {
-      font-size: 1.8rem;
-      margin: 0.5rem 0;
       color: #457c1e;
+      margin: 0.5rem 0;
     }
-
     nav {
-      background-color: #d9f2c7;
-      padding: 1rem;
-      text-align: center;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
     }
-
     nav a {
-      margin: 0 15px;
-      text-decoration: none;
       color: #305419;
       font-weight: bold;
-      font-size: 1rem;
-      transition: color 0.3s;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background 0.3s;
     }
-
     nav a:hover {
-      color: #1e3f0e;
+      background-color: #c6f1a3;
     }
-
     .hero {
-      background-image: url('fundo-biofrutix-2.png');
-      background-size: cover;
-      background-position: center;
+      background: url('fundo-biofrutix-2.png') no-repeat center center/cover;
+      text-align: center;
       color: white;
-      text-align: center;
-      padding: 6rem 1rem;
-      font-size: 2.5rem;
+      padding: 5rem 1rem;
+      font-size: 2rem;
       font-weight: bold;
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+      text-shadow: 2px 2px 6px #000;
     }
-
-    .highlight {
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-
-    .highlight img {
-      max-width: 300px;
-      margin: 1rem auto;
-      display: block;
-      border-radius: 12px;
-    }
-
-    .section {
+    main {
       max-width: 900px;
-      margin: auto;
-      padding: 2rem;
+      margin: 3rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
-
     h2 {
       color: #305419;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #d9f2c7;
+      border-bottom: 2px solid #c6f1a3;
+      padding-bottom: 0.5rem;
     }
-
-    p {
-      line-height: 1.6;
+    section {
+      margin-bottom: 2.5rem;
     }
-
-    .corredores {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      margin-top: 1rem;
+    .contact, .social {
+      text-align: center;
+      margin-top: 2rem;
     }
-
-    .corredores img {
-      width: 250px;
-      border-radius: 12px;
-    }
-
-    .social-footer {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      background-color: #457c1e;
-      color: white;
-      padding: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .social-footer a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-
-    .social-footer a:hover {
-      color: #d9f2c7;
-    }
-
     .whatsapp-btn {
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
       background-color: #25D366;
       color: white;
       padding: 12px 20px;
-      border-radius: 50px;
+      border-radius: 30px;
+      font-size: 16px;
       text-decoration: none;
-      font-size: 18px;
-      box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+      display: inline-block;
+      margin: 1rem 0;
     }
-
+    .whatsapp-btn:hover {
+      background-color: #128C7E;
+    }
+    .social a {
+      margin: 0 15px;
+      color: #457c1e;
+      font-size: 22px;
+      text-decoration: none;
+    }
+    .social a:hover {
+      color: #305419;
+    }
     footer {
       text-align: center;
-      background-color: #e6f7d8;
       padding: 1rem;
       font-size: 0.9rem;
+      background-color: #f5f5f5;
       color: #555;
+      margin-top: 2rem;
+    }
+    #topBtn {
+      display: none;
+      position: fixed;
+      bottom: 40px;
+      right: 30px;
+      z-index: 99;
+      background-color: #457c1e;
+      color: white;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    .runners {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 2rem 0;
+    }
+    .runners img {
+      max-width: 30%;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
+
   <header>
     <img src="logo.png" alt="Logo Harpia" class="logo" />
-    <h1>Biofrutix: Inovação com a força da biodiversidade</h1>
+    <h1>Harpia Ciência e Biotecnologia</h1>
+    <nav>
+      <a href="#sobre">Quem Somos</a>
+      <a href="#mvp">Nosso Produto</a>
+      <a href="#movimento">Raízes do Futuro</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#sobre">Quem Somos</a>
-    <a href="#produto">Produto</a>
-    <a href="#movimento">Raízes do Futuro</a>
-  </nav>
-
   <div class="hero">
-    🌱 Hidratação natural com ciência e biodiversidade 
+    Biofrutix: Inovação com a força da biodiversidade
   </div>
 
-  <div class="highlight">
-    <img src="fundo-biofrutix-2.png" alt="Produto Biofrutix" />
-  </div>
+  <main>
+    <section id="sobre" data-aos="fade-up">
+      <h2>Quem Somos</h2>
+      <p>
+        Somos uma startup brasileira que atua com foco na bioeconomia, unindo ciência e saberes tradicionais para regenerar os biomas amazônicos e do Cerrado por meio da inovação.
+      </p>
+    </section>
 
-  <section id="sobre" class="section" data-aos="fade-up">
-    <h2>Quem Somos</h2>
-    <p>A Harpia Ciência e Biotecnologia é uma startup brasileira dedicada à bioeconomia, biodiversidade e regeneração ambiental com frutos nativos do Cerrado e da Amazônia. Unimos ciência, saberes tradicionais e tecnologia para criar soluções sustentáveis e funcionais.</p>
-  </section>
+    <section id="mvp" data-aos="fade-up">
+      <h2>Nosso Produto: Biofrutix</h2>
+      <p>
+        Um repositor eletrolítico natural com probióticos e frutos da biodiversidade brasileira. Hidrata, nutre e conecta você com a natureza.
+      </p>
+    </section>
 
-  <section id="produto" class="section" data-aos="fade-up">
-    <h2>Nosso Produto</h2>
-    <p>O Biofrutix é um repositor eletrolítico natural com probióticos, feito com frutos nativos brasileiros. Desenvolvido para atletas, corredores e para quem busca saúde com sabor e sustentabilidade.</p>
-    <div class="corredores">
-      <img src="runner.png" alt="runner" />
-      <img src="runner1.png" alt="runner 1" />
-      <img src="runner2.png" alt="runner 2" />
+    <section id="movimento" data-aos="fade-up">
+      <h2>Movimento Raízes do Futuro</h2>
+      <p>
+        Um chamado à regeneração! Reunimos ciência, reflorestamento e agricultura sintrópica em um só movimento.
+      </p>
+    </section>
+
+    <div class="contact">
+      <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
     </div>
+
+    <div class="social">
+      <h2>Siga nas redes sociais</h2>
+      <a href="https://instagram.com/BionexBras" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@EquipeHarpia" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/company/103615487" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </main>
+
+  <section class="runners">
+    <img src="Runner.jpg" alt="Corredor 1">
+    <img src="runner1.jpg" alt="Corredor 2">
+    <img src="runner2.jpg" alt="Corredor 3">
   </section>
-
-  <section id="movimento" class="section" data-aos="fade-up">
-    <h2>Movimento Raízes do Futuro</h2>
-    <p>Inspirado pela Agricultura Sintrópica, o movimento convida você a plantar o futuro com a gente. 
-      🌱 Cada unidade vendida do Biofrutix apoia o plantio de frutos nativos e práticas regenerativas.</p>
-    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSelIwPYAY_Eecu0CtfFE0o1uWimoJ_LFsM-CYnGYVl8SiIrPg/viewform" target="_blank">📋 Acesse o formulário para corredores parceiros</a></p>
-  </section>
-
-  <div class="social-footer">
-    <a href="https://instagram.com/BionexBras" target="_blank">Instagram</a>
-    <a href="https://www.linkedin.com/company/103615487" target="_blank">LinkedIn</a>
-    <a href="https://www.youtube.com/@EquipeHarpia" target="_blank">YouTube</a>
-  </div>
-
-  <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 WhatsApp</a>
 
   <footer>
     <p>&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
   </footer>
 
+  <button onclick="topFunction()" id="topBtn" title="Voltar ao topo">⬆️</button>
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
-    console.log("🚀 Harpia: Inovação com a força da biodiversidade");
+    const topBtn = document.getElementById("topBtn");
+    window.onscroll = () => {
+      topBtn.style.display = window.scrollY > 200 ? "block" : "none";
+    };
+    function topFunction() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   </script>
 </body>
 </html>
