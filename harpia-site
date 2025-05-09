@@ -7,6 +7,7 @@
   <meta name="keywords" content="bioeconomia, frutos nativos, biodiversidade, hidratação natural, probióticos, sustentabilidade, inovação, Harpia" />
   <title>Harpia Ciência e Biotecnologia</title>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -72,10 +73,14 @@
       text-align: center;
       margin-top: 2rem;
     }
-    .social a, .contact a {
-      margin: 0 10px;
+    .social a {
+      margin: 0 15px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 24px;
+      color: #457c1e;
+    }
+    .social a:hover {
+      color: #305419;
     }
     .whatsapp-btn {
       display: inline-block;
@@ -109,18 +114,30 @@
       text-shadow: 2px 2px 6px #000;
       padding: 6rem 1rem;
     }
-    html {
-      scroll-behavior: smooth;
+    .runners {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 2rem;
+      background-color: #f0f8ec;
     }
-    .social a {
-      margin: 0 15px;
+    .runners img {
+      max-width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .cta-button {
+      background-color: #457c1e;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
       text-decoration: none;
-      font-size: 20px;
-      color: #457c1e;
-      font-weight: bold;
+      font-size: 18px;
+      display: inline-block;
+      margin-top: 20px;
     }
-    .social a:hover {
-      color: #305419;
+    .cta-button:hover {
+      background-color: #305419;
     }
     #topBtn {
       display: none;
@@ -138,6 +155,7 @@
   </style>
 </head>
 <body>
+
   <header>
     <img src="logo.png" alt="Logo Harpia Ciência e Biotecnologia" class="logo" />
     <h1>Harpia Ciência e Biotecnologia</h1>
@@ -156,7 +174,7 @@
     <section id="sobre" data-aos="fade-up">
       <h2>Quem Somos</h2>
       <p>
-        A Harpia Ciência e Biotecnologia é uma startup brasileira que atua com foco na bioeconomia, utilizando frutos da biodiversidade amazônica e do Cerrado. Nossa missão é promover inovação com base em saberes tradicionais, ciência e regeneração. Somos apaixonadas por desenvolver soluções funcionais, sustentáveis e conectadas à natureza.
+        A Harpia Ciência e Biotecnologia é uma startup brasileira que atua com foco na bioeconomia, utilizando frutos da biodiversidade amazônica e do Cerrado. Nossa missão é promover inovação com base em saberes tradicionais, ciência e regeneração.
       </p>
     </section>
 
@@ -170,12 +188,9 @@
     <section id="movimento" data-aos="fade-up">
       <h2>Movimento Raízes do Futuro</h2>
       <p>
-        O movimento busca reconectar a inovação com a natureza por meio do plantio de frutos nativos, regeneração ambiental e práticas colaborativas. Acreditamos que a ciência deve caminhar junto com a conservação.
+        O movimento busca reconectar a inovação com a natureza por meio do plantio de frutos nativos, regeneração ambiental e práticas colaborativas.
       </p>
     </section>
-  </main>
-
- <img src="fundo-biofrutix-2.png" alt="fundo-biofrutix-2.png" class="fundo-biofrutix-2.png" />
 
     <div class="contact">
       <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
@@ -183,52 +198,38 @@
 
     <div class="social">
       <h2>Acompanhe nas redes sociais</h2>
-      <div class="social-icons">
-        <a href="https://instagram.com/BionexBras" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.youtube.com/@EquipeHarpia" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="https://www.linkedin.com/company/103615487" target="_blank"><i class="fab fa-linkedin"></i></a>
-      </div>
+      <a href="https://instagram.com/BionexBras" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@EquipeHarpia" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/company/103615487" target="_blank"><i class="fab fa-linkedin"></i></a>
     </div>
   </main>
+
   <section class="hero">
-    <img src="fundo-biofrutix-2.png" alt="fundo-biofrutix-2.png" class="product-img">
     <h1 class="title">Uma explosão de saúde com o sabor da biodiversidade</h1>
     <a href="#" class="cta-button">Compre Agora</a>
   </section>
 
   <section class="runners">
-    <img src="Runner.jpg" alt="Runner.jpg">
-    <img src="runner 1.jpg" alt="runner 1.jpg">
-    <img src="runner 2.jpg" alt="runner 2.jpg">
+    <img src="Runner.jpg" alt="Corredor 1">
+    <img src="runner 1.jpg" alt="Corredor 2">
+    <img src="runner 2.jpg" alt="Corredor 3">
   </section>
 
   <footer>
     <p>&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
-    © 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.
   </footer>
-
-</body>
-</html>
 
   <button onclick="topFunction()" id="topBtn" title="Voltar ao topo">⬆️</button>
-
-  <footer>
-    <p>&copy; 2025 Harpia Ciência e Biotecnologia. Todos os direitos reservados.</p>
-  </footer>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
-
-    // Destaque no menu ao clicar
     document.querySelectorAll("nav a").forEach(link => {
       link.addEventListener("click", function () {
         document.querySelectorAll("nav a").forEach(a => a.classList.remove("active"));
         this.classList.add("active");
       });
     });
-
-    // Botão voltar ao topo
     const topBtn = document.getElementById("topBtn");
     window.onscroll = () => {
       topBtn.style.display = window.scrollY > 200 ? "block" : "none";
@@ -236,9 +237,7 @@
     function topFunction() {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
-
-    // Mensagem no console
-    console.log("Bem-vindo ao site da Harpia! 🌿 Inovação com a força da biodiversidade.");
+    console.log("Bem-vindo ao site da Harpia! 🌿");
   </script>
 </body>
 </html>
