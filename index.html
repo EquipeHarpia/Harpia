@@ -127,10 +127,24 @@
       justify-content: center;
       gap: 10px;
       padding: 2rem 0;
+      flex-wrap: wrap;
     }
     .runners img {
       max-width: 30%;
       border-radius: 10px;
+    }
+    .benefits {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .benefits div {
+      background-color: #e6f9dd;
+      padding: 1rem;
+      border-radius: 10px;
+      font-weight: bold;
+      color: #305419;
     }
   </style>
 </head>
@@ -163,6 +177,13 @@
       <p>
         Um repositor eletrolítico natural com probióticos e frutos da biodiversidade brasileira. Hidrata, nutre e conecta você com a natureza.
       </p>
+
+      <div class="benefits">
+        <div>💧 Repositor natural de eletrólitos</div>
+        <div>🌿 Ingredientes da biodiversidade brasileira</div>
+        <div>🧫 Probióticos vivos que fortalecem sua microbiota</div>
+        <div>⚡ Energia e vitalidade com sabor da floresta</div>
+      </div>
     </section>
 
     <section id="movimento" data-aos="fade-up">
