@@ -192,6 +192,34 @@
       </p>
     </section>
 
+    <section id="blog" data-aos="fade-up" style="background-color:#f9fff4; padding: 3rem 2rem; border-radius: 12px; margin-top: 3rem;">
+      <h2 style="color:#305419; border-bottom: 2px solid #d9f2c7; padding-bottom: 0.5rem; text-align:center;">Blog Harpia: Saberes e Inovação</h2>
+      
+      <article style="margin-bottom: 2rem;">
+        <h3 style="color:#457c1e;">🍃 Hidratação Natural com Biofrutix</h3>
+        <p>
+          Descubra como o Biofrutix vai além de um isotônico comum. Nossa fórmula reúne frutos nativos, eletrólitos naturais e probióticos, promovendo hidratação e nutrição com respeito à biodiversidade brasileira.
+        </p>
+        <a href="#" style="color:#457c1e; text-decoration: underline;">Leia mais</a>
+      </article>
+
+      <article style="margin-bottom: 2rem;">
+        <h3 style="color:#457c1e;">🌱 Raízes do Futuro: o Movimento que Regenera</h3>
+        <p>
+          Conheça a iniciativa da Harpia que une inovação, reflorestamento e práticas colaborativas para um futuro sustentável com base na agricultura sintrópica.
+        </p>
+        <a href="#" style="color:#457c1e; text-decoration: underline;">Leia mais</a>
+      </article>
+
+      <article>
+        <h3 style="color:#457c1e;">🧪 Ciência, Saberes Tradicionais e Bioeconomia</h3>
+        <p>
+          Como a ciência e os conhecimentos ancestrais se encontram para criar produtos regenerativos, respeitando comunidades e ecossistemas.
+        </p>
+        <a href="#" style="color:#457c1e; text-decoration: underline;">Leia mais</a>
+      </article>
+    </section>
+
     <div class="contact">
       <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
     </div>
@@ -241,5 +269,6 @@
   </script>
 </body>
 </html>
+
 
 
