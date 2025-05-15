@@ -171,6 +171,32 @@
     .carrossel img.ativo {
       opacity: 1;
     }
+    .carousel-container {
+  overflow: hidden;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.carousel img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-2200px); }
+}
   </style>
 </head>
 <body>
@@ -216,6 +242,13 @@
       <p>
         Um chamado à regeneração! Reunimos ciência, reflorestamento e agricultura sintrópica em um só movimento.
       </p>
+      <div class="carousel-container" style="margin-top: 3rem;">
+  <div class="carousel" id="carousel">
+    <img src="https://images.unsplash.com/photo-1624605544272-5c3f50e49726?fit=crop&w=800&q=80" alt="Agrofloresta">
+    <img src="https://images.unsplash.com/photo-1614806683554-e754f720b6fc?fit=crop&w=800&q=80" alt="Frutos nativos">
+    <img src="https://images.unsplash.com/photo-1586949201176-8025a427ff0a?fit=crop&w=800&q=80" alt="Sementes e mãos">
+    <img src="https://images.unsplash.com/photo-1621266847741-64f6225dd985?fit=crop&w=800&q=80" alt="Comunidade local">
+  </div>
     </section>
 
     <div class="contact">
