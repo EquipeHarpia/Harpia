@@ -163,6 +163,7 @@
     }
   </style>
 </head>
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/512/427/427735.png" type="image/png">
 <body>
 
   <header>
@@ -188,6 +189,31 @@
       </p>
     </section>
 
+    <section id="mvp" data-aos="fade-up" style="background-color:#f4fff0; padding: 3rem 2rem; border-radius: 12px;">
+  <h2 style="text-align:center; color:#305419;">Nosso Produto: Biofrutix</h2>
+  <p style="max-width: 700px; margin: 0 auto; text-align:center;">
+    O Biofrutix é um repositor eletrolítico natural, com probióticos e frutos nativos brasileiros. Mais que hidratação: é ciência, sabor e regeneração em uma única bebida.
+  </p>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem;">
+    <div style="flex: 1 1 200px; background-color: #e6f9dc; padding: 1rem; border-radius: 10px;">
+      <h3 style="color:#457c1e;">🍇🍃 Frutos da biodiversidade</h3>
+      <p>Utilizamos frutas nativas como araçá, camu-camu e buriti para trazer sabor, cor e compostos bioativos.</p>
+    </div>
+    <div style="flex: 1 1 200px; background-color: #e6f9dc; padding: 1rem; border-radius: 10px;">
+      <h3 style="color:#457c1e;">⚡ Eletrólitos Naturais</h3>
+      <p>Reposição inteligente de minerais essenciais para hidratação eficaz — sem aditivos sintéticos.</p>
+    </div>
+    <div style="flex: 1 1 200px; background-color: #e6f9dc; padding: 1rem; border-radius: 10px;">
+      <h3 style="color:#457c1e;">🦠 Probióticos Vivos</h3>
+      <p>Micro-organismos benéficos que equilibram a flora intestinal e fortalecem o sistema imunológico.</p>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="https://wa.me/556392532673" class="cta-button">Peça pelo WhatsApp</a>
+  </div>
+</section>
+
+
     <section id="mvp" data-aos="fade-up">
       <h2>Nosso Produto: Biofrutix</h2>
       <p>
@@ -195,40 +221,42 @@
       </p>
     </section>
 
-    <section id="movimento" data-aos="fade-up">
-      <h2>Movimento Raízes do Futuro</h2>
-      <p>
-        O movimento busca reconectar a inovação com a natureza por meio do plantio de frutos nativos, regeneração ambiental e práticas colaborativas.
-      </p>
-    </section>
+    <section id="movimento" data-aos="fade-up" style="padding: 4rem 2rem; background-color: #fffbe7;">
+  <h2 style="text-align:center; color:#6b4d1f;">Raízes do Futuro</h2>
+  <p style="max-width: 700px; margin: 0 auto; text-align:center;">
+    Inspirado na Agricultura Sintrópica, o movimento “Raízes do Futuro” planta hoje as sementes de uma nova economia regenerativa. Cada Biofrutix vendido ajuda a reflorestar e fortalecer os ecossistemas brasileiros.
+  </p>
 
-    <section id="blog" data-aos="fade-up" style="background-color:#f9fff4; padding: 3rem 2rem; border-radius: 12px; margin-top: 3rem;">
-      <h2 style="color:#305419; border-bottom: 2px solid #d9f2c7; padding-bottom: 0.5rem; text-align:center;">Blog Harpia: Saberes e Inovação</h2>
-      
-      <article style="margin-bottom: 2rem;">
-        <h3 style="color:#457c1e;">🍃 Hidratação Natural com Biofrutix</h3>
-        <p>
-          Descubra como o Biofrutix vai além de um isotônico comum. Nossa fórmula reúne frutos nativos, eletrólitos naturais e probióticos, promovendo hidratação e nutrição com respeito à biodiversidade brasileira.
-        </p>
-        <a href="#" style="color:#457c1e; text-decoration: underline;">Leia mais</a>
-      </article>
+  <div style="margin-top: 3rem;">
+    <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+      <img src="https://cdn-icons-png.flaticon.com/512/2909/2909644.png" width="60" height="60" alt="Semente" style="margin-right: 1rem;">
+      <div>
+        <h4 style="margin: 0; color:#457c1e;">1. Semeamos Propósito</h4>
+        <p style="margin: 0;">Unimos ciência, biodiversidade e regeneração com um propósito: transformar alimentos em agentes de impacto positivo.</p>
+      </div>
+    </div>
 
-      <article style="margin-bottom: 2rem;">
-        <h3 style="color:#457c1e;">🌱 Raízes do Futuro: o Movimento que Regenera</h3>
-        <p>
-          Conheça a iniciativa da Harpia que une inovação, reflorestamento e práticas colaborativas para um futuro sustentável com base na agricultura sintrópica.
-        </p>
-        <a href="#" style="color:#457c1e; text-decoration: underline;">Leia mais</a>
-      </article>
+    <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+      <img src="https://cdn-icons-png.flaticon.com/512/2250/2250210.png" width="60" height="60" alt="Muda" style="margin-right: 1rem;">
+      <div>
+        <h4 style="margin: 0; color:#457c1e;">2. Cultivamos Parcerias</h4>
+        <p style="margin: 0;">Trabalhamos com comunidades, pesquisadores e empreendedores para escalar a agricultura regenerativa no Cerrado e na Amazônia.</p>
+      </div>
+    </div>
 
-      <article>
-        <h3 style="color:#457c1e;">🧪 Ciência, Saberes Tradicionais e Bioeconomia</h3>
-        <p>
-          Como a ciência e os conhecimentos ancestrais se encontram para criar produtos regenerativos, respeitando comunidades e ecossistemas.
-        </p>
-        <a href="#" style="color:#457c1e; text-decoration: underline;">Leia mais</a>
-      </article>
-    </section>
+    <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+      <img src="https://cdn-icons-png.flaticon.com/512/2909/2909643.png" width="60" height="60" alt="Floresta" style="margin-right: 1rem;">
+      <div>
+        <h4 style="margin: 0; color:#457c1e;">3. Colhemos Futuro</h4>
+        <p style="margin: 0;">A cada garrafa vendida, reinvestimos em projetos que restauram solos, geram renda e biodiversidade — criando raízes para um amanhã abundante.</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align:center; margin-top: 3rem;">
+    <a href="#contato" class="cta-button">Quero fazer parte 🌱</a>
+  </div>
+</section>
 
     <div class="contact">
       <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
