@@ -268,13 +268,14 @@
     <<div class="social">
   <h2>Acompanhe nas redes sociais</h2>
   <a href="https://www.instagram.com/harpian.br" target="_blank" rel="noopener noreferrer" aria-label="Instagram Harpia">
-    <i class="fab fa-instagram"></i>
+    <i class="fab fa-instagram"></i> target="_blank">📸 Instagram</a>
   </a>
   <a href="https://www.youtube.com/@EquipeHarpia" target="_blank" rel="noopener noreferrer" aria-label="YouTube Harpia">
-    <i class="fab fa-youtube"></i>
+    <i class="fab fa-youtube"></i> target="_blank">▶️ YouTube</a>
   </a>
   <a href="https://www.linkedin.com/company/103615487" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Harpia">
-    <i class="fab fa-linkedin"></i>
+    <i class="fab fa-linkedin"></i> target="_blank">💼 LinkedIn</a>
+    </div>
   </a>
 </div>
   </main>
