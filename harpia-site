@@ -78,19 +78,22 @@
       border-bottom: 2px solid #d9f2c7;
       padding-bottom: 0.5rem;
     }
-    .social, .contact {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    .social a {
-      margin: 0 15px;
-      text-decoration: none;
-      font-size: 24px;
-      color: #457c1e;
-    }
-    .social a:hover {
-      color: #305419;
-    }
+   .social {
+  text-align: center;
+  margin-top: 3rem;
+}
+.social a {
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 32px;
+  color: #457c1e;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.social a:hover {
+  color: #305419;
+  transform: scale(1.2);
+}
     .whatsapp-btn {
       display: inline-block;
       background-color: #25D366;
@@ -262,12 +265,18 @@
       <a href="https://wa.me/556392532673" class="whatsapp-btn" target="_blank">💬 Fale conosco pelo WhatsApp</a>
     </div>
 
-    <div class="social">
-      <h2>Acompanhe nas redes sociais</h2>
-      <a href="https://www.instagram.com/harpian.br" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.youtube.com/@EquipeHarpia" target="_blank"><i class="fab fa-youtube"></i></a>
-      <a href="https://www.linkedin.com/company/103615487" target="_blank"><i class="fab fa-linkedin"></i></a>
-    </div>
+    <<div class="social">
+  <h2>Acompanhe nas redes sociais</h2>
+  <a href="https://www.instagram.com/harpian.br" target="_blank" rel="noopener noreferrer" aria-label="Instagram Harpia">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.youtube.com/@EquipeHarpia" target="_blank" rel="noopener noreferrer" aria-label="YouTube Harpia">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a href="https://www.linkedin.com/company/103615487" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Harpia">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
   </main>
 
   <section class="hero">
